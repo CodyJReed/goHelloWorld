@@ -2,9 +2,12 @@ package main
 
 import "fmt"
 
+// Var can be declared @ a global/package level
+// This allows the variable to be used locally be any entity
 var y string = "How are you?"
 
 func main() {
+	// The short declaration can only be accessed via its locally scope, and can not be hoisted
 	x := "Hello"
 	y = "world"
 	n, _ := fmt.Println(x, y)
