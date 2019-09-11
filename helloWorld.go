@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello")
+	n, _ := fmt.Println("Hello")
 	foo()
 	fmt.Println("something more.")
 
@@ -12,6 +12,7 @@ func main() {
 			fmt.Println("This is an even number", i)
 		}
 	}
+	fmt.Println(n)
 }
 
 func foo() {
