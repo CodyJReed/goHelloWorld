@@ -3,7 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	n, _ := fmt.Println("Hello")
+	x := "Hello"
+	var y = "How are you?"
+	n, _ := fmt.Println(x, y)
 	foo()
 	fmt.Println("something more.")
 
