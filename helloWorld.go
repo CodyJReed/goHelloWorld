@@ -2,9 +2,11 @@ package main
 
 import "fmt"
 
+var y string = "How are you?"
+
 func main() {
 	x := "Hello"
-	var y = "How are you?"
+	y = "world"
 	n, _ := fmt.Println(x, y)
 	foo()
 	fmt.Println("something more.")
